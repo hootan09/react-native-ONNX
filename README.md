@@ -80,7 +80,7 @@ python -m onnxruntime.tools.convert_onnx_models_to_ort --optimization_style=Fixe
             ```
 
             **NOTE:**
-            - Expo will ask the Android package name and iOS bundle identifier. In this tutorial we use `com.example.helloworld` as package name and bundle identifier.
+            - Expo will ask the Android package name and iOS bundle identifier. In this tutorial we use `com.hootan09.expo_app_ai` as package name and bundle identifier.
             - The package name (Android) and bundle ID (iOS) will be added in your `<SOURCE_ROOT>/app.json` automatically by expo.
 
         2. Add `onnxruntime-react-native` to gradle depencencies.
@@ -92,7 +92,7 @@ python -m onnxruntime.tools.convert_onnx_models_to_ort --optimization_style=Fixe
 
         3. Add `onnxruntime-react-native` to CocoaPods dependencies.
 
-            In `<SOURCE_ROOT>/ios/Podfile`, add the following line to section `target 'OrtReactNativeHelloWorld'`:
+            In `<SOURCE_ROOT>/ios/Podfile`, add the following line to section `target 'expo_app_ai'`:
             ```
             pod 'onnxruntime-react-native', :path => '../node_modules/onnxruntime-react-native'
             ```
