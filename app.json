@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo_app_ai",
     "slug": "expo_app_ai",
+    "plugins": ["onnxruntime-react-native"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hootan09.expo_app_ai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
